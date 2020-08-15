@@ -229,10 +229,10 @@ open class DropDown : UITextField{
         if height < (keyboardHeight+tableheightX){
             y = self.pointToParent.y - tableheightX
         }
-        UIView.animate(withDuration: 0.9,
+        UIView.animate(withDuration: 0.2,
                        delay: 0,
-                       usingSpringWithDamping: 0.4,
-                       initialSpringVelocity: 0.1,
+                       usingSpringWithDamping: 0,
+                       initialSpringVelocity: 0,
                        options: .curveEaseInOut,
                        animations: { () -> Void in
 
@@ -242,7 +242,7 @@ open class DropDown : UITextField{
                                                   height: self.tableheightX)
                         self.table.alpha = 1
                         self.shadow.frame = self.table.frame
-                        self.shadow.dropShadow()
+                             self.shadow.dropShadow()
                         self.arrow.position = .up
                        
 
@@ -257,7 +257,7 @@ open class DropDown : UITextField{
 
     public func hideList() {
         TableWillDisappearCompletion()
-        UIView.animate(withDuration: 1.0,
+        UIView.animate(withDuration: 0.2,
                        delay: 0.4,
                        usingSpringWithDamping: 0.9,
                        initialSpringVelocity: 0.1,
@@ -410,7 +410,7 @@ extension DropDown: UITableViewDelegate {
         selectedIndex = (indexPath as NSIndexPath).row
         let selectedText = self.dataArray[self.selectedIndex!]
         tableView.cellForRow(at: indexPath)?.alpha = 0
-        UIView.animate(withDuration: 0.5,
+        UIView.animate(withDuration: 0.2,
                        animations: { () -> Void in
                         tableView.cellForRow(at: indexPath)?.alpha = 1.0
                         tableView.cellForRow(at: indexPath)?.backgroundColor = self.selectedRowColor
@@ -456,7 +456,7 @@ class Arrow: UIView {
             shapeLayer.fillColor = arrowColor.cgColor
         }
     }
-    
+    // CGAfflineTransform rotationAngle it will help you to rotate Arrow circle image with alpha pi
     var position: Position = .down {
         didSet{
             switch position {
