@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501CDF03D0CE06872A08A31D /* Pods_DropDownMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9100929D9FBF897D402A4EB9 /* Pods_DropDownMenu.framework */; };
+		949BF18D52AFDABF1E8FA789 /* Pods_DropDownMenu_DropDownMenuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CB8B87AF707C7D1F03FE36 /* Pods_DropDownMenu_DropDownMenuUITests.framework */; };
 		CEF1AF2F24E8573600E1924D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1AF2E24E8573600E1924D /* AppDelegate.swift */; };
 		CEF1AF3124E8573600E1924D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1AF3024E8573600E1924D /* SceneDelegate.swift */; };
 		CEF1AF3324E8573600E1924D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1AF3224E8573600E1924D /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		CEF1AF3B24E8573C00E1924D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF1AF3924E8573C00E1924D /* LaunchScreen.storyboard */; };
 		CEF1AF4624E8573D00E1924D /* DropDownMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1AF4524E8573D00E1924D /* DropDownMenuTests.swift */; };
 		CEF1AF5124E8573D00E1924D /* DropDownMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1AF5024E8573D00E1924D /* DropDownMenuUITests.swift */; };
+		CEF1AF5F24E85ACB00E1924D /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF1AF5E24E85ACB00E1924D /* iOSDropDown.framework */; };
+		D5331E468B0C25D66A9C1C0B /* Pods_DropDownMenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932F6522D07BE9AA4DF88E1A /* Pods_DropDownMenuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38CB8B87AF707C7D1F03FE36 /* Pods_DropDownMenu_DropDownMenuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownMenu_DropDownMenuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		628FC4CF15047BA9B3C8A201 /* Pods-DropDownMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenuTests.debug.xcconfig"; path = "Target Support Files/Pods-DropDownMenuTests/Pods-DropDownMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0A5C272E6D0033BD7FA4FB /* Pods-DropDownMenu-DropDownMenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu-DropDownMenuUITests.debug.xcconfig"; path = "Target Support Files/Pods-DropDownMenu-DropDownMenuUITests/Pods-DropDownMenu-DropDownMenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1D3EB6E27A6D39FEBCC03C /* Pods-DropDownMenu-DropDownMenuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu-DropDownMenuUITests.release.xcconfig"; path = "Target Support Files/Pods-DropDownMenu-DropDownMenuUITests/Pods-DropDownMenu-DropDownMenuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9100929D9FBF897D402A4EB9 /* Pods_DropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		932F6522D07BE9AA4DF88E1A /* Pods_DropDownMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB517BC385F8231484FEEFAB /* Pods-DropDownMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenuTests.release.xcconfig"; path = "Target Support Files/Pods-DropDownMenuTests/Pods-DropDownMenuTests.release.xcconfig"; sourceTree = "<group>"; };
 		CEF1AF2B24E8573600E1924D /* DropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF1AF2E24E8573600E1924D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF1AF3024E8573600E1924D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		CEF1AF4C24E8573D00E1924D /* DropDownMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF1AF5024E8573D00E1924D /* DropDownMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuUITests.swift; sourceTree = "<group>"; };
 		CEF1AF5224E8573D00E1924D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF1AF5E24E85ACB00E1924D /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC11604AE56F7A62D63ABE9 /* Pods-DropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.debug.xcconfig"; path = "Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF29AB21E3F66598909B3E8 /* Pods-DropDownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.release.xcconfig"; path = "Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF1AF5F24E85ACB00E1924D /* iOSDropDown.framework in Frameworks */,
+				501CDF03D0CE06872A08A31D /* Pods_DropDownMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5331E468B0C25D66A9C1C0B /* Pods_DropDownMenuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949BF18D52AFDABF1E8FA789 /* Pods_DropDownMenu_DropDownMenuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F79AFC77A67B43CB259CA0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFC11604AE56F7A62D63ABE9 /* Pods-DropDownMenu.debug.xcconfig */,
+				FFF29AB21E3F66598909B3E8 /* Pods-DropDownMenu.release.xcconfig */,
+				7E0A5C272E6D0033BD7FA4FB /* Pods-DropDownMenu-DropDownMenuUITests.debug.xcconfig */,
+				8E1D3EB6E27A6D39FEBCC03C /* Pods-DropDownMenu-DropDownMenuUITests.release.xcconfig */,
+				628FC4CF15047BA9B3C8A201 /* Pods-DropDownMenuTests.debug.xcconfig */,
+				BB517BC385F8231484FEEFAB /* Pods-DropDownMenuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3FB085E7E7B40304AAE72CBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1AF5E24E85ACB00E1924D /* iOSDropDown.framework */,
+				9100929D9FBF897D402A4EB9 /* Pods_DropDownMenu.framework */,
+				38CB8B87AF707C7D1F03FE36 /* Pods_DropDownMenu_DropDownMenuUITests.framework */,
+				932F6522D07BE9AA4DF88E1A /* Pods_DropDownMenuTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEF1AF2224E8573600E1924D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				CEF1AF4424E8573D00E1924D /* DropDownMenuTests */,
 				CEF1AF4F24E8573D00E1924D /* DropDownMenuUITests */,
 				CEF1AF2C24E8573600E1924D /* Products */,
+				1F79AFC77A67B43CB259CA0D /* Pods */,
+				3FB085E7E7B40304AAE72CBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF1AF5524E8573D00E1924D /* Build configuration list for PBXNativeTarget "DropDownMenu" */;
 			buildPhases = (
+				FB9BE485F1D6D352F178FF18 /* [CP] Check Pods Manifest.lock */,
 				CEF1AF2724E8573600E1924D /* Sources */,
 				CEF1AF2824E8573600E1924D /* Frameworks */,
 				CEF1AF2924E8573600E1924D /* Resources */,
+				10B760EB1A58F42FA17EDAC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF1AF5824E8573D00E1924D /* Build configuration list for PBXNativeTarget "DropDownMenuTests" */;
 			buildPhases = (
+				F5283B22E0526FDCDD551348 /* [CP] Check Pods Manifest.lock */,
 				CEF1AF3D24E8573D00E1924D /* Sources */,
 				CEF1AF3E24E8573D00E1924D /* Frameworks */,
 				CEF1AF3F24E8573D00E1924D /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF1AF5B24E8573D00E1924D /* Build configuration list for PBXNativeTarget "DropDownMenuUITests" */;
 			buildPhases = (
+				0B81A932A1268016EEDF67F0 /* [CP] Check Pods Manifest.lock */,
 				CEF1AF4824E8573D00E1924D /* Sources */,
 				CEF1AF4924E8573D00E1924D /* Frameworks */,
 				CEF1AF4A24E8573D00E1924D /* Resources */,
+				D5CD19AC22BBA8BD27376685 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B81A932A1268016EEDF67F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropDownMenu-DropDownMenuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10B760EB1A58F42FA17EDAC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CD19AC22BBA8BD27376685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu-DropDownMenuUITests/Pods-DropDownMenu-DropDownMenuUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu-DropDownMenuUITests/Pods-DropDownMenu-DropDownMenuUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu-DropDownMenuUITests/Pods-DropDownMenu-DropDownMenuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5283B22E0526FDCDD551348 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropDownMenuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9BE485F1D6D352F178FF18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropDownMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEF1AF2724E8573600E1924D /* Sources */ = {
@@ -432,6 +584,7 @@
 		};
 		CEF1AF5624E8573D00E1924D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC11604AE56F7A62D63ABE9 /* Pods-DropDownMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +602,7 @@
 		};
 		CEF1AF5724E8573D00E1924D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF29AB21E3F66598909B3E8 /* Pods-DropDownMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +620,7 @@
 		};
 		CEF1AF5924E8573D00E1924D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628FC4CF15047BA9B3C8A201 /* Pods-DropDownMenuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +642,7 @@
 		};
 		CEF1AF5A24E8573D00E1924D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB517BC385F8231484FEEFAB /* Pods-DropDownMenuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +664,7 @@
 		};
 		CEF1AF5C24E8573D00E1924D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0A5C272E6D0033BD7FA4FB /* Pods-DropDownMenu-DropDownMenuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +684,7 @@
 		};
 		CEF1AF5D24E8573D00E1924D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1D3EB6E27A6D39FEBCC03C /* Pods-DropDownMenu-DropDownMenuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
